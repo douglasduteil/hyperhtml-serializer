@@ -1,6 +1,6 @@
 //
 
-const HYPER_COMMENT_REGEX = /_hyper: (.*?);/;
+const HYPER_COMMENT_REGEX = /\d\.\d+%/;
 
 const test = value => {
   return (
