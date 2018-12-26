@@ -9,18 +9,13 @@ node_js: stable
 
 cache: yarn
 
-matrix:
-  fast_finish: true
-  include:
-    - node_js: '8'
-    - node_js: '10'
-    - node_js: 'stable'
-
 jobs:
   include:
     - stage: Tests
+      node_js: '8'
+    - node_js: '10'
+    - node_js: 'stable'
     - stage: Code Coverage
       node_js: 'stable'
-      script:
-      - yarn test -- --ci --coverage
-      - npx codecov
+      script: yarn test --ci --coverage
+      after_success: npx codecov
