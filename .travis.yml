@@ -13,17 +13,14 @@ matrix:
   fast_finish: true
   include:
     - node_js: '8'
-    - node_js: '9'
+    - node_js: '10'
     - node_js: 'stable'
 
 jobs:
   include:
     - stage: Tests
-    - 
-      node_js: '9'
-    - 
-      node_js: '8'
     - stage: Code Coverage
+      node_js: 'stable'
       script:
       - yarn test -- --ci --coverage
       - npx codecov
