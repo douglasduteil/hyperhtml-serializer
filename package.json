@@ -16,7 +16,7 @@
   ],
   "dependencies": {},
   "peerDependencies": {
-    "hyperhtml": ">=2.19"
+    "hyperhtml": ">=2.23.0"
   },
   "devDependencies": {
     "hyperhtml": "^2.23.0",
