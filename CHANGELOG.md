@@ -14,8 +14,7 @@ All notable changes to this project will be documented in this file. See [standa
 ### BREAKING CHANGES
 
 * changed hyperhtml comment regular expression
-
-Since hyperhtml 2.1.9, the comment content has changed to avoid SVG issues with numeric attributes
+  Since hyperhtml 2.1.9, the comment content has changed to avoid SVG issues with numeric attributes
 
 
 
