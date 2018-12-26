@@ -1420,6 +1420,11 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
+hyperhtml@~2.4:
+  version "2.4.3"
+  resolved "https://registry.npmjs.org/hyperhtml/-/hyperhtml-2.4.3.tgz#baee85130b3f5806834ca1293c6e0581e3313f3a"
+  integrity sha512-NxeaaAgjz0v2BSdQmHQQsK11gK1m15jQqVRge5ZB9IFi9YvhglCSMkUNzygY3BKcR+1Yw56XpjsgDcyMmxKNgQ==
+
 iconv-lite@0.4.19:
   version "0.4.19"
   resolved "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.19.tgz#f7468f60135f5e5dad3399c0a81be9a1603a082b"

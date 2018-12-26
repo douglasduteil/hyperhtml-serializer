@@ -14,28 +14,26 @@ exports[`should only act on HTML strings 6`] = `[Function]`;
 
 exports[`should remove extra hyper comments from the html 1`] = `
 <section>
+  
+  
   <foo-hyper-app>
     
-  
+    
     <!-- This is my comment -->
     
-  
+    
     <h1>
       Hello hyperHTML !
+      
     </h1>
     
-  
     
-    
-  
     <h1>
       Hello world !
+      
     </h1>
     
   
-    
-    
-
   </foo-hyper-app>
   
 
