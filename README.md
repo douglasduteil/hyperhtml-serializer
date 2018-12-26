@@ -8,7 +8,8 @@
 
 ## Note
 
-**This version is working with `hyperhtml` version `2.4 - 2.18`**
+**This version is working with `hyperhtml` version `>=2.19`**  
+For [`hyperhtml@2.4 - 2.18` versions consult the `1.x` branch](https://github.com/douglasduteil/hyperhtml-serializer/tree/1.x)
 
 ## Why ?
 

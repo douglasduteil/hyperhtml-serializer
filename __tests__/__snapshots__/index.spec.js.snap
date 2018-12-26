@@ -14,8 +14,6 @@ exports[`should only act on HTML strings 6`] = `[Function]`;
 
 exports[`should remove extra hyper comments from the html 1`] = `
 <section>
-  
-  
   <foo-hyper-app>
     
     
@@ -35,7 +33,5 @@ exports[`should remove extra hyper comments from the html 1`] = `
     
   
   </foo-hyper-app>
-  
-
 </section>
 `;
