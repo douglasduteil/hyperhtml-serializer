@@ -6,6 +6,10 @@
 
 > [Jest](https://github.com/facebook/jest) snapshot serializer that beautifies [hyperHTML](https://github.com/WebReflection/hyperHTML) snapshots.
 
+## Note
+
+**This version is working with `hyperhtml` version `2.4 - 2.18`**
+
 ## Why ?
 
 This serializer it made to remove :
