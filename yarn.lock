@@ -1719,10 +1719,15 @@ hyperhtml-style@^0.1.2:
   resolved "https://registry.npmjs.org/hyperhtml-style/-/hyperhtml-style-0.1.2.tgz#c7a7904656a95575d5afdd06ac96bb4d757e0197"
   integrity sha512-ZDRYNClEaqUS0a8RAED0nQRqWmZk7ctdyij3Iw/PqUUef6xhYO87nx9vJNuxg7Yc6J2FdJjXRKbB0iud2ZyzwQ==
 
-hyperhtml@^2.24.0:
-  version "2.24.0"
-  resolved "https://registry.yarnpkg.com/hyperhtml/-/hyperhtml-2.24.0.tgz#58a1551e44a38fcc84210eddcea9878ea45f6acf"
-  integrity sha512-nV5jXhnwi0nPBLzegfF5rbKrvHnOjhGFpjWiZ7kRflhyoXdVuqarhxr/ECUtIp3mH7dQnTBMtjBNdXGDqJuvwQ==
+hyperhtml-wire@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hyperhtml-wire/-/hyperhtml-wire-1.0.0.tgz#ef7ba8a0e7118adaa752a4b9c2eb2ab09e84bf11"
+  integrity sha512-JPZtmozCl18sPfGgcCdirtgU1Hd/iH9B+UViYEsmouaXfB/7Zia1Db6XjMNCoyw+7RhP/3gwh5+uUAhoQww/dQ==
+
+hyperhtml@^2.25.0:
+  version "2.25.0"
+  resolved "https://registry.yarnpkg.com/hyperhtml/-/hyperhtml-2.25.0.tgz#0c24fc428e2fb5c9ef850f1bbbff984a67f80392"
+  integrity sha512-nZWZjap8SPqSn3FVngR8nOQ/IQTFpG8U+JFCVS+Zdsz0b/46IqG72Q4WJ11yFL5iXcgbmY1Z2jDNyARQzgeZKQ==
   dependencies:
     "@ungap/create-content" "^0.1.4"
     "@ungap/custom-event" "^0.2.0"
@@ -1735,6 +1740,7 @@ hyperhtml@^2.24.0:
     domdiff "^2.0.2"
     domtagger "^0.2.3"
     hyperhtml-style "^0.1.2"
+    hyperhtml-wire "^1.0.0"
     lightercollective "^0.2.0"
 
 iconv-lite@0.4.19:
