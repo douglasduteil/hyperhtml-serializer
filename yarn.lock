@@ -1719,10 +1719,10 @@ hyperhtml-style@^0.1.2:
   resolved "https://registry.npmjs.org/hyperhtml-style/-/hyperhtml-style-0.1.2.tgz#c7a7904656a95575d5afdd06ac96bb4d757e0197"
   integrity sha512-ZDRYNClEaqUS0a8RAED0nQRqWmZk7ctdyij3Iw/PqUUef6xhYO87nx9vJNuxg7Yc6J2FdJjXRKbB0iud2ZyzwQ==
 
-hyperhtml@^2.23.0:
-  version "2.23.0"
-  resolved "https://registry.npmjs.org/hyperhtml/-/hyperhtml-2.23.0.tgz#00f55b82a54fb6efb3a25c5c97d9fa91ee2efead"
-  integrity sha512-SW2wyV8SWK9zjPyrMu/fDpBEVBrcfqqsZX/KMPnOWB72XXVRp5UMIG7PKhA618yZM3p7IGF1LpeK9s61vwZ/Rg==
+hyperhtml@^2.23.1:
+  version "2.23.1"
+  resolved "https://registry.yarnpkg.com/hyperhtml/-/hyperhtml-2.23.1.tgz#8277b8eb4e7354a6a02de9b4c032ac4f1a0a95c5"
+  integrity sha512-AVAmZIkejhg4G+yV0hdJQMGjcYkAyP/JAdZSyoEQeZxYj1AgHhF8X7Ugq2hZsP5F5jhCCZKWZiY3x0IPWYjIQg==
   dependencies:
     "@ungap/create-content" "^0.1.4"
     "@ungap/custom-event" "^0.2.0"
@@ -1735,7 +1735,7 @@ hyperhtml@^2.23.0:
     domdiff "^2.0.2"
     domtagger "^0.2.3"
     hyperhtml-style "^0.1.2"
-    lightercollective "^0.1.0"
+    lightercollective "^0.2.0"
 
 iconv-lite@0.4.19:
   version "0.4.19"
@@ -2615,10 +2615,10 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lightercollective@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/lightercollective/-/lightercollective-0.1.0.tgz#70df102c530dcb8d0ccabfe6175a8d00d5f61300"
-  integrity sha512-J9tg5uraYoQKaWbmrzDDexbG6hHnMcWS1qLYgJSWE+mpA3U5OCSeMUhb+K55otgZJ34oFdR0ECvdIb3xuO5JOQ==
+lightercollective@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/lightercollective/-/lightercollective-0.2.0.tgz#4f10cd53ec50405d7da03ee81233067993ca8e67"
+  integrity sha512-zgFCDiUQQOjislj+1tX7zDxZbgVB6Qi9BSmos41oZcxHdkTveVDzHW0Y3TisNZCWuBN1h0e0xrjkNoLtPkLsUg==
 
 load-json-file@^1.0.0:
   version "1.1.0"
