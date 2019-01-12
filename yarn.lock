@@ -1726,15 +1726,15 @@ hyperhtml-style@^0.1.2:
   resolved "https://registry.npmjs.org/hyperhtml-style/-/hyperhtml-style-0.1.2.tgz#c7a7904656a95575d5afdd06ac96bb4d757e0197"
   integrity sha512-ZDRYNClEaqUS0a8RAED0nQRqWmZk7ctdyij3Iw/PqUUef6xhYO87nx9vJNuxg7Yc6J2FdJjXRKbB0iud2ZyzwQ==
 
-hyperhtml-wire@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/hyperhtml-wire/-/hyperhtml-wire-2.0.0.tgz#8879f46ba2b9ff79aacc34dbce3739a13df4e279"
-  integrity sha512-RUx8fep6fGycbeSYb3AKpzoh7CdvAR46F+YUW1sSXcm2ouQddoWupqnxMCzKHiDyvKUNDpTZ5nOtswWClak6mg==
+hyperhtml-wire@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/hyperhtml-wire/-/hyperhtml-wire-2.1.0.tgz#d4684b7a52c733e9b8df823275f6e5dd1cdc6039"
+  integrity sha512-LqFs/MgvxyMVM8O3Fx7QcCDWWkga3JeMA7C1inHM71PIchupSyj2u/zG8Blw+KfJHIFmEsx09KxOrgykGqoopQ==
 
-hyperhtml@^2.25.2:
-  version "2.25.2"
-  resolved "https://registry.yarnpkg.com/hyperhtml/-/hyperhtml-2.25.2.tgz#96ea68113505c4974284f2e11c838fd216d12111"
-  integrity sha512-JsEC2UpdUIZkcK7y+XerKuZwv/aZdji4erzR5wlwaH0q/V44L83HMdtKoHHci23LgeHBGaS9rU+q7ADIvwVTXQ==
+hyperhtml@^2.25.3:
+  version "2.25.3"
+  resolved "https://registry.yarnpkg.com/hyperhtml/-/hyperhtml-2.25.3.tgz#0ebf2e09f3f471de08d3fcccee517299bb2ee4e0"
+  integrity sha512-G73y0mpEJKQZARGbu99JaMLbvcVamzGdVtY0N5v0ptwlfFZu0bYq7Tyh86VMbRneJgGpqIjdM3NJxOeBL2lGww==
   dependencies:
     "@ungap/create-content" "^0.1.4"
     "@ungap/custom-event" "^0.2.0"
@@ -1747,7 +1747,7 @@ hyperhtml@^2.25.2:
     domdiff "^2.0.2"
     domtagger "^0.2.3"
     hyperhtml-style "^0.1.2"
-    hyperhtml-wire "^2.0.0"
+    hyperhtml-wire "^2.1.0"
     lightercollective "^0.2.0"
 
 iconv-lite@0.4.19:
