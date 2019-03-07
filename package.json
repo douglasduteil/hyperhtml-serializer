@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "hyperhtml": "^2.25.4",
-    "jest": "^24.3.0",
+    "jest": "^24.3.1",
     "standard-version": "^5.0.1"
   },
   "jest": {
