@@ -1935,10 +1935,10 @@ hyperhtml-wire@^2.1.0:
   resolved "https://registry.yarnpkg.com/hyperhtml-wire/-/hyperhtml-wire-2.1.0.tgz#d4684b7a52c733e9b8df823275f6e5dd1cdc6039"
   integrity sha512-LqFs/MgvxyMVM8O3Fx7QcCDWWkga3JeMA7C1inHM71PIchupSyj2u/zG8Blw+KfJHIFmEsx09KxOrgykGqoopQ==
 
-hyperhtml@^2.31.6:
-  version "2.31.6"
-  resolved "https://registry.yarnpkg.com/hyperhtml/-/hyperhtml-2.31.6.tgz#562c3fa5b7f43a91ea5d366e6e15cf5bc1952e00"
-  integrity sha512-4+aObgbA4brfB6n4YZORvvH07A0QmpqUxg+H4ghPNpvLxeoYHAWAwBIraE8pOUzDPafVkG4wKeSRL/j4vx6oBg==
+hyperhtml@^2.32.0:
+  version "2.32.0"
+  resolved "https://registry.yarnpkg.com/hyperhtml/-/hyperhtml-2.32.0.tgz#60dc2192569e834961bbc8b34dee5edde566e6be"
+  integrity sha512-dfwzwmfhe6ke2w2FhkTHrRyK0Tb2thdSvd80GbZuTiSCsFan/oKpZ/X7nHJ44KiU4CixZD10OIkKO1rRAmp06w==
   dependencies:
     "@ungap/create-content" "^0.1.4"
     "@ungap/custom-event" "^0.2.0"
