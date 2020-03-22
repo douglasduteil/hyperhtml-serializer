@@ -1336,10 +1336,12 @@ domconstants@^0.1.1:
   resolved "https://registry.yarnpkg.com/domconstants/-/domconstants-0.1.1.tgz#1675bdd1e8315d62a3c98e9a611fa19584310759"
   integrity sha512-Pk4K6tLOzSh0cZDuh7TQivZtYLC6Z8dNissoDyy2tQoVNg8ewScxG3AVJO76kLcTta/u7bgEO6xbIR97MiInfA==
 
-domdiff@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/domdiff/-/domdiff-2.2.1.tgz#e76a3a3cb3f0b89d8c62256d5bcfe7bd25878e75"
-  integrity sha512-TMhytimYWli3txUhRcCnbjKDi07SZgCexiJ0ud8PLuzQqkYzOenm8z3vqI+pskNsVfKAbZ2xZqpWxGmi8pnBRg==
+domdiff@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/domdiff/-/domdiff-2.2.2.tgz#b05ea5e6084b5e659369d1c022e4e3d6fb31398d"
+  integrity sha512-Pv7aH5JfjNIkLRKkah+T3Kd41Gy+7GU+5dmPsOZZXsCJ34QR1i7CCiWraUn1c/a40htShxAQ8mHJR2OqPd12+Q==
+  dependencies:
+    uarray "^1.0.0"
 
 domexception@^1.0.0:
   version "1.0.1"
@@ -1355,10 +1357,10 @@ domsanitizer@^0.2.2:
   dependencies:
     domconstants "^0.1.1"
 
-domtagger@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/domtagger/-/domtagger-0.6.1.tgz#05f6f3bf3647721ff67f7acba4f8e5f8276fb4d7"
-  integrity sha512-GZBz0HVVt4fUDKSQUZogHdsi8AvvcBxRXY2BoT2NTkNzpefhemhE2vJ12cMBS4D1cqnqJSzL1xybvikASNRrWQ==
+domtagger@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/domtagger/-/domtagger-0.6.2.tgz#7d4ee19e0391371e43b42411d21145280b443861"
+  integrity sha512-2z7re+gh8Gv6AUuoAhWsF8JXJtNaQCyplYt4p9piSZQ/ivDJ+goDXmKGqKWbc4BniZTD3X/kxm8DEjS12MhPAw==
   dependencies:
     "@ungap/create-content" "^0.1.4"
     "@ungap/import-node" "^0.1.0"
@@ -1366,6 +1368,7 @@ domtagger@^0.6.1:
     "@ungap/weakmap" "^0.1.4"
     domconstants "^0.1.1"
     domsanitizer "^0.2.2"
+    umap "^1.0.2"
 
 dot-prop@^3.0.0:
   version "3.0.0"
@@ -1935,10 +1938,10 @@ hyperhtml-wire@^2.1.0:
   resolved "https://registry.yarnpkg.com/hyperhtml-wire/-/hyperhtml-wire-2.1.0.tgz#d4684b7a52c733e9b8df823275f6e5dd1cdc6039"
   integrity sha512-LqFs/MgvxyMVM8O3Fx7QcCDWWkga3JeMA7C1inHM71PIchupSyj2u/zG8Blw+KfJHIFmEsx09KxOrgykGqoopQ==
 
-hyperhtml@^2.32.1:
-  version "2.32.1"
-  resolved "https://registry.yarnpkg.com/hyperhtml/-/hyperhtml-2.32.1.tgz#0621b83d4f92df853c91672eca3cee152036339b"
-  integrity sha512-/dJMkkxg1SjampEAL9FMkEIxLlE1lFO7b+cYYJBc8BheEvCwszMacPjjOxGNdMl4R2UlFQvV+joIjO4JaS4Rtg==
+hyperhtml@^2.32.2:
+  version "2.32.2"
+  resolved "https://registry.yarnpkg.com/hyperhtml/-/hyperhtml-2.32.2.tgz#d65e13651ea45ba2ddea79b4058ad405ad960a19"
+  integrity sha512-F4r0MtZn2aQtUUafe009kQPfNoW7cZvK/r3XrDjW5WiybWMCWGRv1WqCYdbMxChLhgNcdklQh3aMl0gbERlOnQ==
   dependencies:
     "@ungap/create-content" "^0.1.4"
     "@ungap/custom-event" "^0.2.0"
@@ -1948,11 +1951,10 @@ hyperhtml@^2.32.1:
     "@ungap/template-tag-arguments" "^0.3.1"
     "@ungap/weakmap" "^0.1.4"
     disconnected "^0.2.1"
-    domdiff "^2.2.1"
-    domtagger "^0.6.1"
+    domdiff "^2.2.2"
+    domtagger "^0.6.2"
     hyperhtml-style "^0.1.2"
     hyperhtml-wire "^2.1.0"
-    lightercollective "^0.3.0"
 
 iconv-lite@0.4.19:
   version "0.4.19"
@@ -2809,11 +2811,6 @@ levn@~0.3.0:
   dependencies:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
-
-lightercollective@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/lightercollective/-/lightercollective-0.3.0.tgz#1f07638642ec645d70bdb69ab2777676f35a28f0"
-  integrity sha512-RFOLSUVvwdK3xA0P8o6G7QGXLIyy1L2qv5caEI7zXN5ciaEjbAriRF182kbsoJ1S1TgvpyGcN485fMky6qxOPw==
 
 load-json-file@^1.0.0:
   version "1.1.0"
@@ -4443,6 +4440,11 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+uarray@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/uarray/-/uarray-1.0.0.tgz#e89bf0ea2129596f4bf653b66e53246ed6562b6c"
+  integrity sha512-LHmiAd5QuAv7pU2vbh+Zq9YOnqVK0H764p2Ozinpfy9ka58OID4IsGLiXsitqH7n0NAIDxvax1A/kDXpii/Ckg==
+
 uglify-js@^3.1.4:
   version "3.4.9"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.4.9.tgz#af02f180c1207d76432e473ed24a28f4a782bae3"
@@ -4450,6 +4452,11 @@ uglify-js@^3.1.4:
   dependencies:
     commander "~2.17.1"
     source-map "~0.6.1"
+
+umap@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/umap/-/umap-1.0.2.tgz#2d7d4b145ad8c9f957921460798f3e221347c981"
+  integrity sha512-bW127HgG4H4VAD6qlqO5vCC+7bnlYvZ6A6BdwyGblkWvlEG7VYpj1bcpf3iJpvyKmkPZWDIeZDmoULz67ec7NA==
 
 union-value@^1.0.0:
   version "1.0.0"
