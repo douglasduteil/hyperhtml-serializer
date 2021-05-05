@@ -21,7 +21,7 @@
   "devDependencies": {
     "hyperhtml": "^2.33.0",
     "jest": "^25.5.4",
-    "standard-version": "^7.1.0"
+    "standard-version": "^8.0.1"
   },
   "jest": {
     "snapshotSerializers": [
