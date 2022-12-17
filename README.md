@@ -3,6 +3,7 @@
 [![CI][gha-image]][gha-url]
 [![NPM version][npm-image]][npm-url]
 [![Conventional Commits][conventional-commits-image]][conventional-commits-url]
+[![codecov][codecov-image]][codecov-url]
 
 > [Jest](https://github.com/facebook/jest) snapshot serializer that beautifies [hyperHTML](https://github.com/WebReflection/hyperHTML) snapshots.
 
@@ -68,6 +69,8 @@ Add in your `package.json`.
     terms of the Do What The Fuck You Want To Public License, Version 2,
     as published by Sam Hocevar. See the LICENCE file for more details.
 
+[codecov-url]: https://codecov.io/gh/douglasduteil/hyperhtml-serializer
+[codecov-image]: https://codecov.io/gh/douglasduteil/hyperhtml-serializer/branch/master/graph/badge.svg?token=ErvTZOUIxp
 [npm-url]: https://npmjs.org/package/hyperhtml-serializer
 [npm-image]: http://img.shields.io/npm/v/hyperhtml-serializer.svg
 [gha-url]: https://github.com/douglasduteil/hyperhtml-serializer/actions/workflows/ci.yml
