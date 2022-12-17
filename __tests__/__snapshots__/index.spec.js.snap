@@ -2,9 +2,9 @@
 
 exports[`should only act on HTML strings 1`] = `"Some text without any tags."`;
 
-exports[`should only act on HTML strings 2`] = `Object {}`;
+exports[`should only act on HTML strings 2`] = `{}`;
 
-exports[`should only act on HTML strings 3`] = `Array []`;
+exports[`should only act on HTML strings 3`] = `[]`;
 
 exports[`should only act on HTML strings 4`] = `0`;
 
