@@ -1,6 +1,6 @@
 # hyperhtml-serializer
 
-[![Build Status][travis-image]][travis-url]
+[![CI][gha-image]][gha-url]
 [![NPM version][npm-image]][npm-url]
 [![Conventional Commits][conventional-commits-image]][conventional-commits-url]
 
@@ -70,7 +70,7 @@ Add in your `package.json`.
 
 [npm-url]: https://npmjs.org/package/hyperhtml-serializer
 [npm-image]: http://img.shields.io/npm/v/hyperhtml-serializer.svg
-[travis-url]: http://travis-ci.com/douglasduteil/hyperhtml-serializer
-[travis-image]: http://travis-ci.com/douglasduteil/hyperhtml-serializer.svg?branch=master
+[gha-url]: https://github.com/douglasduteil/hyperhtml-serializer/actions/workflows/ci.yml
+[gha-image]: https://github.com/douglasduteil/hyperhtml-serializer/actions/workflows/ci.yml/badge.svg
 [conventional-commits-image]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
 [conventional-commits-url]: https://conventionalcommits.org*
