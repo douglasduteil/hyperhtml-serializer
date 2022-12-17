@@ -1,6 +1,6 @@
 //
 
-exports.FooHyperApp = render =>
+exports.FooHyperApp = (render) =>
   render`
   <foo-hyper-app>
     <!-- This is my comment -->
