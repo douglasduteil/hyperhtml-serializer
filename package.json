@@ -20,8 +20,8 @@
   },
   "devDependencies": {
     "hyperhtml": "^2.34.2",
-    "jest": "^29.4.1",
-    "jest-environment-jsdom": "^29.4.1",
+    "jest": "^29.4.2",
+    "jest-environment-jsdom": "^29.4.2",
     "standard-version": "^9.5.0"
   },
   "jest": {
