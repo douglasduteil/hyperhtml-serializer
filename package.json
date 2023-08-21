@@ -21,7 +21,7 @@
   "devDependencies": {
     "hyperhtml": "^2.34.2",
     "jest": "^29.6.3",
-    "jest-environment-jsdom": "^29.6.2",
+    "jest-environment-jsdom": "^29.6.3",
     "standard-version": "^9.5.0"
   },
   "jest": {
