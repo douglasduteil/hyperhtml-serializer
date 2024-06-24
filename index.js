@@ -2,6 +2,9 @@
 
 const HYPER_COMMENT_REGEX = /\d\.\d+%/;
 
+/**
+ * @param {import("./types.d.ts").JsetSnapshotSerializersLike?} value
+ */
 const test = (value) => {
   return (
     value !== undefined &&
