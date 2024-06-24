@@ -1,5 +1,7 @@
 {
   "extends": ["config:base", ":automergeAll", ":semanticCommits"],
+
+  "dependencyDashboardAutoclose": true,
   "rangeStrategy": "bump",
   "peerDependencies": {
     "rangeStrategy": "widen"
