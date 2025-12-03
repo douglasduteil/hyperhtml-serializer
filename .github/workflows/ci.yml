@@ -21,5 +21,5 @@ jobs:
           cache: "yarn"
       - run: yarn install
       - run: yarn test --ci --coverage
-      - if: matrix.node-version == 'latest'
-        run: npx codecov
+      - uses: codecov/codecov-action@v5
+        if: matrix.node-version == 'latest'
